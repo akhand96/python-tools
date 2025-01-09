@@ -2,7 +2,7 @@
 import gzip
 import shutil
 
-# function to compress a file using gzip
+# creating a function to compress given file using gzip
 def compressFile(inputFile, outputFile):
     with open(inputFile, 'rb') as f_in:
         with gzip.open(outputFile, 'wb') as f_out:
